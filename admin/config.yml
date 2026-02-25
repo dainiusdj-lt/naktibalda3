@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "photos"
+    label: "Photos"
+    folder: "content/photos"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "ISO", name: "iso", widget: "string" }
+      - { label: "Shutter Speed", name: "shutter", widget: "string" }
+      - { label: "Aperture (f)", name: "aperture", widget: "string" }
+      - { label: "Integration Time", name: "integration", widget: "string" }
