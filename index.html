@@ -66,7 +66,7 @@
   </style>
 </head>
 <body>
-  <div class="overlay">
+    <div class="overlay">
     <div class="top">
       <div class="logo">naktibalda</div>
       <div class="clock-box">
@@ -88,32 +88,34 @@
       <option>Vilniaus rajonas</option>
     </select>
 
+    <div class="week-box">
+      ★ - prognozuojamos giedros naktys
+    </div>
+
     <div class="photos">
       <div class="card">
         <img src="photo1.jpg" onclick="openPreview(this.src)">
         <div class="card-content">
-          <h2> Horse head </h2>
+          <h2>Milky Way Over Foggy Ridge</h2>
           <div class="meta">
             <span>ISO 1600 • 15s • 5min • f2.8</span>
             <button class="btn" onclick="openPreview('photo1.jpg')">Peržiūrėti</button>
           </div>
         </div>
       </div>
-  <div class="fullscreen" id="preview" onclick="closePreview()">
-    <img id="previewImg">
+      <div class="card">
+        <img src="photo2.jpg" onclick="openPreview(this.src)">
+        <div class="card-content">
+          <h2>Remote Mountain Nightscape</h2>
+          <div class="meta">
+            <span>ISO 1600 • 15s • 5min • f2.8</span>
+            <button class="btn" onclick="openPreview('photo2.jpg')">Peržiūrėti</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-          <div class="photos">
-      <div class="card">
-        <img src="photo1.jpg" onclick="openPreview(this.src)">
-        <div class="card-content">
-          <h2> Horse head </h2>
-          <div class="meta">
-            <span>ISO 1600 • 15s • 5min • f2.8</span>
-            <button class="btn" onclick="openPreview('photo1.jpg')">Peržiūrėti</button>
-          </div>
-        </div>
-      </div>
   <div class="fullscreen" id="preview" onclick="closePreview()">
     <img id="previewImg">
   </div>
