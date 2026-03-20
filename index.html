@@ -119,26 +119,6 @@
   </div>
 
             
-  <script>
-    function openPreview(src){
-      document.getElementById('preview').style.display='flex';
-      document.getElementById('previewImg').src=src;
-    }
-    function closePreview(){
-      document.getElementById('preview').style.display='none';
-    }
-  </script>
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
+ 
  </body>
 </html>
